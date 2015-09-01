@@ -11,7 +11,7 @@ type Timer interface {
 
 type realTimer struct{}
 
-func NewTimer() Timer {
+func New() Timer {
 	return &realTimer{}
 }
 

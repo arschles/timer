@@ -11,7 +11,7 @@ type FakeTimer struct {
 	afterRequests []afterRequest
 }
 
-func NewFakeTimer(now time.Time) *FakeTimer {
+func New(now time.Time) *FakeTimer {
 	return &FakeTimer{now: now}
 }
 
