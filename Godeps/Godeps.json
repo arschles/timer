@@ -1,0 +1,23 @@
+{
+	"ImportPath": "github.com/arschles/timer",
+	"GoVersion": "go1.4.2",
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/onsi/ginkgo",
+			"Comment": "v1.2.0-12-gcd0c926",
+			"Rev": "cd0c92610a042acf1e5aa5a280ab69ecf0ab6d9b"
+		},
+		{
+			"ImportPath": "github.com/onsi/gomega",
+			"Comment": "v1.0-55-g6331bf5",
+			"Rev": "6331bf5a5b5e7a832348789eb3cedff7a6917103"
+		},
+		{
+			"ImportPath": "github.com/pivotal-golang/timer/fake_timer",
+			"Rev": "79a02f14345f482a54a963bda76bf1d17dbf3dc9"
+		}
+	]
+}

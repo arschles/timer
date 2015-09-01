@@ -1,4 +1,4 @@
-package fake_timer_test
+package testsuite_test
 
 import (
 	. "github.com/arschles/timer/Godeps/_workspace/src/github.com/onsi/ginkgo"
@@ -6,7 +6,7 @@ import (
 	"testing"
 )
 
-func TestFakeTimer(t *testing.T) {
+func TestTestsuite(t *testing.T) {
 	RegisterFailHandler(Fail)
-	RunSpecs(t, "FakeTimer Suite")
+	RunSpecs(t, "Testsuite Suite")
 }
